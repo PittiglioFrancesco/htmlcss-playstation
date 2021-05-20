@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+/* jumbotron */
+
+.bgc-image{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    height: 800px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
 /* colori */
 
 .bgc-black{
     background-color: black;
+}
+
+.bgc-red{
+    background-color: red;
 }
