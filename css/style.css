@@ -22,6 +22,13 @@
     margin: 20px;
 }
 
+/* footer */
+
+.style{
+    width: 100%;
+    height: 300px;
+}
+
 /* colori */
 
 .bgc-black{
@@ -30,4 +37,8 @@
 
 .bgc-red{
     background-color: red;
+}
+
+.bgc-blue{
+    background-color: blue;
 }
