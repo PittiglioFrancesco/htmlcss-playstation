@@ -11,6 +11,11 @@
     height: 800px;
 }
 
+.bgc-image2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 800px;
+}
+
 .box{
     height: 100px;
     width: 100px;
