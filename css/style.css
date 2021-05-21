@@ -27,9 +27,14 @@
 
 /* jumbotron */
 
-.bgc-image{
+.bg-image{
+    background-size: cover;
     background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
     height: 800px;
+}
+
+.jumbo-content{
+    margin: 570px 20px 20px;
 }
 
 .bgc-image2{
@@ -37,10 +42,13 @@
     height: 800px;
 }
 
-.box{
-    height: 100px;
-    width: 100px;
-    margin: 20px;
+.p-style{
+    max-width: 300px;
+}
+
+.jumbo-button{
+    padding: 10px;
+    background-color: orange;
 }
 
 /* footer */
@@ -70,4 +78,16 @@
 
 .bgc-darkblue{
     background-color: darkblue;
+}
+
+.white{
+    color: white;
+}
+
+/* debug */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
 }
