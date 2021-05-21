@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+/* nav */
+
+.nav-style{
+    width: 100%;
+}
+
+.nav-style img{
+    width: 10%;
+}
+
+.search-style{
+    color: black;
+    margin-top: 3px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.search-style:hover{
+    color: black;
+}
+
 /* jumbotron */
 
 .bgc-image{
