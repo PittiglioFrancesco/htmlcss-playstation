@@ -51,6 +51,40 @@
     background-color: orange;
 }
 
+/* giochi jumbo */
+
+.jumbo-gioco{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.jumbo-gioco:first-child{
+    border: 3px solid blue;
+    padding: 5px;
+}
+
+/* ps5 */
+
+.ps5-img{
+    width: 500%;
+}
+
+h2.line-height-ps5{
+    max-width: 200px;
+}
+
+span.line-height-ps5{
+    max-width: 100px;
+}
+
+.special{
+    border-bottom: 3px solid blue;
+}
+
 /* nuove uscite */
 
 .game-box-style{
@@ -94,6 +128,14 @@
 
 .white{
     color: white;
+}
+
+.blue{
+    color: blue;
+}
+
+.gray{
+    color: gray;
 }
 
 /* debug */
