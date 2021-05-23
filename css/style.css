@@ -51,6 +51,18 @@
     background-color: orange;
 }
 
+/* nuove uscite */
+
+.game-box-style{
+    max-width: 150px;
+}
+
+.game-box{
+    display: block;
+    height: 150px;
+    width: 150px;
+}
+
 /* footer */
 
 .style{
