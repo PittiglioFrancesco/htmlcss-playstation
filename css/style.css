@@ -28,13 +28,19 @@
 /* jumbotron */
 
 .bg-image{
+    margin-top: 110px;
     background-size: cover;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    height: 800px;
+    background-position: center;
+    background-image: url(../img/jumbo-bg.png);
+    height: calc(100vh - 110px);
+}
+
+.returnal-logo{
+    width: 30%;
 }
 
 .jumbo-content{
-    margin: 570px 20px 20px;
+    margin: 300px 20px 20px;
 }
 
 .bgc-image2{
@@ -54,12 +60,20 @@
 /* giochi jumbo */
 
 .jumbo-gioco{
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
-    background-size: cover;
     width: 200px;
     height: 100px;
     margin-top: 50px;
     border-radius: 20px;
+}
+
+.returnal-game{
+    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    background-size: cover;
+}
+
+.ratchet{
+    background-image: url(../img/ratchet-and-clank-rift-apart-keyart.jpg);
+    background-size: cover;
 }
 
 .jumbo-gioco:first-child{
@@ -67,10 +81,14 @@
     padding: 5px;
 }
 
+/* .jumbo-gioco:hover{
+    bottom: 10px;
+} */
+
 /* ps5 */
 
 .ps5-img{
-    width: 500%;
+    width: 100%;
 }
 
 h2.line-height-ps5{
@@ -88,8 +106,10 @@ span.line-height-ps5{
 /* it takes two */
 
 .bg-image2{
+    height: calc(100vh - 110px);
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 /* nuove uscite */
@@ -99,9 +119,12 @@ span.line-height-ps5{
 }
 
 .game-box{
-    display: block;
-    height: 150px;
-    width: 150px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.info-gioco{
+    max-width: 150px;
 }
 
 /* ps4 */
@@ -125,10 +148,18 @@ span.line-height-ps5{
 /* socials */
 
 .social-img{
-    width: 50%;
+    width: 100%;
 }
 
 /* footer */
+
+.logo-sony-footer{
+    width: 20%;
+}
+
+.logo-sie{
+    width: 30%;
+}
 
 .ul-style{
     list-style: none;
@@ -160,6 +191,14 @@ span.line-height-ps5{
 
 .bgc-darkblue{
     background-color: darkblue;
+}
+
+.bgc-gray{
+    background-color: gray;
+}
+
+.bgc-white{
+    background-color: #fff;
 }
 
 .white{
